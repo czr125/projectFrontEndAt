@@ -1,21 +1,54 @@
-body{
-    background-color: #ecdbba;
-    font-family: "Inter", sans-serif;
-}
-h1{
-    text-align: center;
-    font-weight: 1000;
-    font-size: 52px;
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
 }
 
-#nav-container{
+body {
+    background-color: #d4cecec5;
+    font-family: Arial, sans-serif;
+    
+}
+
+
+header {
+    background-color: #f36262e1;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    color: rgba(255, 255, 255, 0.87);
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#above-nav {
+    display: flex;
+    align-items: center;
+}
+
+#search {
+    margin-left: auto;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input {
+    width: 300px;
+    height: 15px;
+    border-radius: 6px;
+    background-color: #ffffffb3;
+    margin-left: 10px;
+}
+
+#nav-container {
     justify-content: center;
     text-align: center;
     padding: 20px;
-}
-
-#nav-container a:hover{
-    color: black;
 }
 
 .nav-item{
@@ -23,61 +56,88 @@ h1{
     display: inline;
     font-size: 22px;
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.67);
+    color: rgb(255, 255, 255);
 }
 
-.card{
-    padding: 2rem;
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color:black;
+}
+
+#categoria-1{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+}
+
+#categoria-2{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;  
+}
+
+#news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+article {
+    width: 500px;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
-.card img{
-    width: 300px;
-    height: 200px;
-    border-radius: 15px;
-    box-shadow: black 4px 6px 10px;
-    float: left;
-    margin-top: -30px;
+article img {
+    max-width: 100%;
+    border-radius: 5px;
+    border: 2px solid #f1a5a5e1;
+    transition: transform 0.2s;
 }
 
-.card h5{
-    font-size: 18px;
-    font-weight: bold;
-    margin: 0 auto;
-    margin-bottom: 3rem;
-    text-align: right;
+article img:hover {
+    transform: scale(1.1);
 }
 
-.card p{
-    font-size: 14px;
+article h2 {
+    font-size: 24px;
+    margin: 10px 0;
 }
 
-#messi-news {
-    padding: 5rem;
-    background-color: rgba(127, 255, 212, 0.445);
-    border-radius: 15px;
+article p {
+    font-size: 16px;
 }
 
-#endrick-news {
-    padding: 5rem;
-    background-color: rgb(31, 123, 31);
-    border-radius: 25px;
+article a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f36262e1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
-#endrick-news img {
-    float: right;
+footer {
+    padding: 20px;
+    width: 100%;
 }
 
-#endrick-news h5{
-    text-align: left;
-}
-
-#pogba-news {
-    background-color: rgba(34, 33, 33, 0.24);
-    padding: 5rem;
-    border-radius: 15px;
-}
-  
 footer p{
     font-size: 20px;
 }

@@ -1,29 +1,39 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily News</title>
     <link rel="stylesheet" href="style.css">
-    <title>News</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
-    <h1>News</h1>
-<header>
-    <nav>
-        <div id="nav-container">
-            <a class="nav-item" id="technologies" href news-nav="technologies.html" >Technologies</span></a>
-            <a class="nav-item" id="sports-menu" href news-nav="sports.html">Sports</a>
-            <a class="nav-item" id="politics" href news-nav="politics.html">Politics</a>
-            <a class="nav-item" id="food-menu" href news-nav="food.html">Food</a>
-        </div>
-    </nav>
-    <section id="content"></section>
-</header>
+    <header>
+        <nav>
+            
+            <div id="nav-container">
+                <div id="above-nav">
+                    <h1>Daily News</h1>
+                    <div id="search">
+                        <ion-icon name="search-outline"></ion-icon><input type="text">
+                    </div>
+                </div>
+                <a class="nav-item" id="entertainment" href news-nav="entertainment.html">Entertainment</a>
+                <a class="nav-item" id="technologies" href news-nav="technologies.html" >Technologies</a>
+                <a class="nav-item" id="sports-menu" href news-nav="sports.html">Sports</a>
+                <a class="nav-item" id="politics" href news-nav="politics.html">Politics</a>
+                <a class="nav-item" id="food-menu" href news-nav="food.html">Food</a>
+            </div>
+        </nav>
+    </header>
+        <section id="news">   
+            <footer>
+                <div id="copy">
+                    <p><span>DAILY NEWS</span> &copy; 2023</p>
+                </div>
+            </footer>
+        </section>
 </body>
-<footer>
-    <div id="copy">
-      <p><span>CZR NEWS</span> &copy; 2023</p>
-    </div>
-</footer>
 </html>
 <script src="script.js"></script>
