@@ -34,15 +34,13 @@ h1 {
     color: white;
     font-size: 20px;
     font-weight: bold;
-    cursor: pointer;
 }
 
 input {
     width: 300px;
-    height: 15px;
+    height: 20px;
     border-radius: 6px;
     background-color: #ffffffb3;
-    margin-left: 10px;
 }
 
 #nav-container {
@@ -67,6 +65,33 @@ nav a {
 nav a:hover {
     color:black;
 }
+
+/* Carousel */
+
+.carousel{
+    width: 1050px;
+    height: 575px;
+    margin-top: 5px;
+}
+
+.carousel-item{
+    width: 1050px;
+    height: 575px;
+}
+
+.carousel-item img{
+    width: 1050px;
+    height: 575px;
+    position: relative;
+    top: .5;
+}
+
+#carouselExampleIndicators {
+    background-size: cover;
+    background-position: center;
+}
+
+/* Content */
 
 #categoria-1{
     margin-left: 30px;
@@ -151,3 +176,5 @@ footer p{
 #copy span {
     font-weight: bold;
 }
+
+
