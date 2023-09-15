@@ -1,0 +1,153 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d4cecec5;
+    font-family: Arial, sans-serif;
+    
+}
+
+
+header {
+    background-color: #f36262e1;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    color: rgba(255, 255, 255, 0.87);
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#above-nav {
+    display: flex;
+    align-items: center;
+}
+
+#search {
+    margin-left: auto;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input {
+    width: 300px;
+    height: 15px;
+    border-radius: 6px;
+    background-color: #ffffffb3;
+    margin-left: 10px;
+}
+
+#nav-container {
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav-item{
+    padding: 20px;
+    display: inline;
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color:black;
+}
+
+#categoria-1{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+}
+
+#categoria-2{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;  
+}
+
+#news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+article {
+    width: 500px;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+article img {
+    max-width: 100%;
+    border-radius: 5px;
+    border: 2px solid #f1a5a5e1;
+    transition: transform 0.2s;
+}
+
+article img:hover {
+    transform: scale(1.1);
+}
+
+article h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+article p {
+    font-size: 16px;
+}
+
+article a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f36262e1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    padding: 20px;
+    width: 100%;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+#copy{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 1px;
+}
+  
+#copy span {
+    font-weight: bold;
+}
