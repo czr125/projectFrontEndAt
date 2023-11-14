@@ -13,8 +13,6 @@ Site feito para simular um jornal online, o qual foi realizado por mim, Cezar Au
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
-<br>
-
 ## 🐳 Inicializando o Docker
   ### Primeiro
   - Instale Docker Desktop: https://www.docker.com/products/docker-desktop/ 
