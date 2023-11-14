@@ -1,7 +1,7 @@
 <h1 align="center"> Daily News Project </h1>
 
 <p align="center">
-Site feito para simular um jornal online, o qual foi realizado por mim, Cezar Augusto.
+Site feito para simular um jornal online, o qual foi realizado para trabalho universitário.
 </p>
 
 <p align="center">
