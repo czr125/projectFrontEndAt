@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  proxy:
+    image: news-page-nginx
+    build:
+      context: .
+    ports:
+      - "30000:80"
+    networks:
+      - news-page
+
+networks: 
+  news-page:
+    driver: bridge
+  
