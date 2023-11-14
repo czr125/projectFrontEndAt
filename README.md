@@ -28,6 +28,7 @@ Site feito para simular um jornal online, o qual foi realizado por mim, Cezar Au
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
+- Bootstrap
 - JavaScript
 - Git e Github
 
