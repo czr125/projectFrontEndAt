@@ -6,7 +6,6 @@ Site feito para simular um jornal online, o qual foi realizado por mim, Cezar Au
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -39,12 +38,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Bootstrap
 - JavaScript
 - Git e Github
-
-## 💻 Projeto
-
-O DailyNews é um projeto simulador de um jornal online com diversos tipos de notícias.
-
-Link de visualização do projeto: https://czr125.github.io/projectFrontEndAt/
+- Docker
 
 ## :memo: Licença
 
